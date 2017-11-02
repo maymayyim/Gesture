@@ -12,6 +12,8 @@
 		0AFFAD6B1FAAD1C900F19F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFAD691FAAD1C900F19F66 /* Main.storyboard */; };
 		0AFFAD6D1FAAD1C900F19F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFAD6C1FAAD1C900F19F66 /* Assets.xcassets */; };
 		0AFFAD701FAAD1C900F19F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFAD6E1FAAD1C900F19F66 /* LaunchScreen.storyboard */; };
+		0AFFAD7A1FAAD55F00F19F66 /* Love Story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFAD791FAAD55F00F19F66 /* Love Story.mp3 */; };
+		0AFFAD7C1FAAD56900F19F66 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0AFFAD7B1FAAD56900F19F66 /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0AFFAD6C1FAAD1C900F19F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AFFAD6F1FAAD1C900F19F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AFFAD711FAAD1C900F19F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFFAD791FAAD55F00F19F66 /* Love Story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Love Story.mp3"; sourceTree = "<group>"; };
+		0AFFAD7B1FAAD56900F19F66 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		0AFFAD641FAAD1C900F19F66 /* Gesture */ = {
 			isa = PBXGroup;
 			children = (
+				0AFFAD7B1FAAD56900F19F66 /* song.mp3 */,
+				0AFFAD791FAAD55F00F19F66 /* Love Story.mp3 */,
 				0AFFAD651FAAD1C900F19F66 /* AppDelegate.swift */,
 				0AFFAD671FAAD1C900F19F66 /* ViewController.swift */,
 				0AFFAD691FAAD1C900F19F66 /* Main.storyboard */,
@@ -124,8 +130,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AFFAD701FAAD1C900F19F66 /* LaunchScreen.storyboard in Resources */,
+				0AFFAD7C1FAAD56900F19F66 /* song.mp3 in Resources */,
 				0AFFAD6D1FAAD1C900F19F66 /* Assets.xcassets in Resources */,
 				0AFFAD6B1FAAD1C900F19F66 /* Main.storyboard in Resources */,
+				0AFFAD7A1FAAD55F00F19F66 /* Love Story.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
